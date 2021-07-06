@@ -1,12 +1,16 @@
 body{
     font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 h1{
     font-size: 60px;
     font-weight: 700;
 }
 .home-content{
     display: flex;
+    margin-bottom: 100px;
     
 }
 .right-content{
@@ -28,7 +32,7 @@ a{
     color: #fff;
     font-size: 15px;
     text-decoration: none;
- 
+    
     padding: 10px 15px;
     background-image: linear-gradient(to right,#FB964B, #FE4C2F);
     border-radius: 20px;
@@ -68,11 +72,12 @@ a{
 }
 .service-div{
     display: flex;
+    padding: 0 50px;
     
 }
 .service-div img{
     margin-top: 15px;
-    width: 300px;
+    width: 90%;
 }
 .service-div h1{
     font-size: 30px;
@@ -83,8 +88,8 @@ a{
     padding: 15px;
 }
 .service-content{
-margin: 50px;
-   width: 330px;
+    margin: 30px;
+   width: 33.33%;
    box-shadow: 1px 5px 20px rgb(35 40 65 / 13%);
    border-radius: 15px;
 }
@@ -109,6 +114,34 @@ margin: 50px;
     font-size: 40px;
     font-weight: 700;
 }
+.contact-us{
+    background-image: url(image/contact-bg.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+form{
+    font-weight: bold;
+    color: #000;
+    border: 2px solid #E52A3D;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+.contact-us input,textarea{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
 footer{
     
     text-align: center;
