@@ -32,17 +32,46 @@ a{
     background-image: linear-gradient(to right,#FB964B, #FE4C2F);
     border-radius: 20px;
 }
+.about-me{
+    margin-top: 40px;
+}
 .about-div{
+   
     display: flex;
     background-image: url(image/1st-bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center ;
 }
 .about-content{
     width: 50%;
+    margin-left: 30px;
     margin-top: 50px;
 }
 .about-content img{
     
     height: 400px;
+}
+.about-content p{
+    margin-right: 110px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.main-content{
+    
+    text-align: center;
+}
+.service-div img{
+    width: 300px;
+}
+.service-div h1{
+    font-size: 30px;
+    text-align: center;
+}
+.service-div p{
+    text-align: justify;
+}
+.service-content{
+   width: 350px;
+   box-shadow: 0px 0px 14px -5px #000;
 }
